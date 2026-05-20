@@ -11,5 +11,5 @@
     ],
     "HEDVersion": "8.1.0",
     "DatasetDOI": "doi:10.18112/openneuro.ds004602.v1.0.1",
-    "HowToAcknowledge": "Please cite primary article (and the other articles, if possible) for the dataset: https://onlinelibrary.wiley.com/doi/full/10.1111/psyp.14496\n\nPeter E Clayson and Michael J Larson (2023). Registered Replication Report of ERN/Pe Psychometrics. OpenNeuro. [Dataset] doi:10.18112/openneuro.ds004602.v1.0.0"
+    "HowToAcknowledge": "Please cite primary article (and the other articles, if possible) for the dataset: https://onlinelibrary.wiley.com/doi/full/10.1111/psyp.14496\nhttps://www.sciencedirect.com/science/article/abs/pii/S0167876024001132\nhttps://onlinelibrary.wiley.com/doi/full/10.1111/psyp.70042\n\n\nPeter E Clayson and Michael J Larson (2023). Registered Replication Report of ERN/Pe Psychometrics. OpenNeuro. [Dataset] doi:10.18112/openneuro.ds004602.v1.0.0"
 }
