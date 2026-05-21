@@ -21,5 +21,6 @@
       "Name": "EEG-BIDS",
       "Version": "10.5"
     }
-  ]
+  ],
+  "DatasetType": "raw"
 }

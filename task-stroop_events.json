@@ -1,10 +1,10 @@
 {
   "onset": {
-    "Description": "Event onset.",
+    "Description": "Event onset from the beginning of the recording.",
     "Units": "s"
   },
   "sample": {
-    "Description": "Event sample index in the recording."
+    "Description": "Zero-based sample index corresponding to event onset."
   },
   "trial_type": {
     "Description": "Categorical event label recoded from EEGLAB event type.",
@@ -20,6 +20,10 @@
     }
   },
   "Description": "Event-level metadata and column descriptions.",
+  "duration": {
+    "Description": "Event duration.",
+    "Units": "s"
+  },
   "StimulusPresentation": {
     "SoftwareName": "E-Prime"
   },
