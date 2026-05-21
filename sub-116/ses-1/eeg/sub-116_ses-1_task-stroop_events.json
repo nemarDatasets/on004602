@@ -1,0 +1,24 @@
+{
+  "Description": "Event-level metadata and column descriptions.",
+  "onset": {
+    "Description": "Event onset.",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "Categorical event label recoded from EEGLAB event type.",
+    "Levels": {
+      "cor": "Correct response",
+      "err": "Error response",
+      "con": "Congruent stimulus",
+      "inc": "Incongruent stimulus",
+      "neu": "Neutral stimulus",
+      "go": "Go stimulus",
+      "ng": "No-go stimulus",
+      "boundary": "EEGLAB boundary event marking a discontinuity in the recording."
+    }
+  },
+  "StimulusPresentation": {
+    "SoftwareName": "E-Prime"
+  },
+  "TaskDescription": "Participants responded based on stimulus color while ignoring word meaning, with congruent, incongruent, and neutral trials. More detailed task information is available at https://osf.io/8cbua/."
+}
