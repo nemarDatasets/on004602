@@ -1,6 +1,0 @@
-{
-  "EEGCoordinateUnits": "mm",
-  "EEGCoordinateSystem": "CTF",
-  "EEGCoordinateSystemDescription": "EEGLAB",
-  "Description": "EEG coordinate system metadata."
-}
