@@ -1,0 +1,28 @@
+{
+  "participant_id": {
+    "Description": "Unique BIDS participant identifier."
+  },
+  "Original_ID": {
+    "Description": "Original study participant identifier."
+  },
+  "age": {
+    "Description": "Age of the participant.",
+    "Units": "years"
+  },
+  "Description": "Participant-level metadata and column descriptions.",
+  "sex": {
+    "Description": "Phenotypical sex of the participant. Values use BIDS-compatible lowercase labels."
+  },
+  "gender": {
+    "Description": "Self-reported gender of the participant."
+  },
+  "race": {
+    "Description": "Self-reported race of the participant."
+  },
+  "ethnicity": {
+    "Description": "Self-reported Hispanic, Latino, or Spanish origin."
+  },
+  "study_site": {
+    "Description": "Study site where the participant was run."
+  }
+}
