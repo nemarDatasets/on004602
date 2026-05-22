@@ -1,1 +1,0 @@
-This study was a replication attempt and is described at https://osf.io/8cbua/. Raw EGI MFF files were imported with EEGLAB, task-specific events were recoded into response-locked and stimulus-locked ERN/Pe-relevant event labels, and then exported to BIDS.
