@@ -1,28 +1,103 @@
 {
   "version": "2.0",
-  "dataset_id": "on004602",
-  "source": "openneuro",
-  "source_id": "ds004602",
+  "pipeline_stage": "enriched",
   "title": "Registered Replication Report of ERN/Pe Psychometrics",
-  "authors": {
-    "Peter E. Clayson": {},
-    "Michael J. Larson": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Peter E. Clayson": {
+      "orcid": "0000-0003-4437-6598"
+    },
+    "Michael J. Larson": {}
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004602.v1.0.3",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.17605/OSF.IO/8CBUA",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004602",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004602",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1111/psyp.14496",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1016/j.ijpsycho.2024.01.001",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1111/psyp.70042",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1111/psyp.14731",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "A registered replication report dataset examining the psychometric properties of error-related negativity (ERN) and error positivity (Pe) components derived from EEG recordings. Raw EGI MFF files were processed using EEGLAB, with task-specific events recoded into response-locked and stimulus-locked ERN/Pe-relevant event labels, and converted to BIDS format for standardized data sharing and reproducibility.",
+  "methods_description": "Raw EEG data were acquired using EGI systems and recorded in MFF format. Data were imported and processed using EEGLAB, with task-specific events recoded into response-locked and stimulus-locked event labels relevant to ERN/Pe analysis. Processed data were exported to BIDS format.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "error-related negativity"
+    },
+    {
+      "term": "error positivity"
+    },
+    {
+      "term": "error monitoring"
+    },
+    {
+      "term": "conflict monitoring"
+    },
+    {
+      "term": "psychometrics"
+    },
+    {
+      "term": "registered replication"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "EEGLAB"
+    }
+  ],
+  "source_hash": "b3e3b32b8c07773eabf9cd50c59491fbefaddffbc5737e0a0001c40a366d613f"
 }
